@@ -39,9 +39,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "24495656")
-API_HASH  = os.environ.get("API_HASH", "61afcf68c6429714dd18acd07f246571")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7842202956:AAHgKbWG5FSQhRdcovXmqaEYlPMd-dQu630") 
+API_ID    = os.environ.get("API_ID", "28773814")
+API_HASH  = os.environ.get("API_HASH", "9f3a3bf87c29aa6d407f00b841e8950c")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7985888923:AAE2voi5r68MnBr3iD7FFhSUvxlVJPY1_Bs") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
@@ -182,7 +182,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 6428531614
+YOUR_ADMIN_ID = 6156388588
 
 # Function to read subscription data
 def read_subscription_data():
@@ -265,7 +265,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 6428531614
+YOUR_ADMIN_ID = 6156388588
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -355,7 +355,7 @@ async def remove_channel(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /remove_channels <channel_id>")
 
-YOUR_ADMIN_ID = 6428531614
+YOUR_ADMIN_ID = 6156388588
 
 # Helper function to check admin privilege
 def is_admin(user_id):
